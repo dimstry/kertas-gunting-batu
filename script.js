@@ -1,7 +1,7 @@
         class Start {
             constructor() {
                 this.playerName = "Player"
-                this.botName = "Bot"
+                this.botName = "NekoBot"
                 this.playerOption;
                 this.botOption;
                 this.winner = ""
@@ -69,7 +69,7 @@
             result.textContent = "..."
 
             setTimeout(() => {
-                inGame.textContent = `${start.getPlayerOption} VS ${start.getBotOption}`
+                inGame.textContent = `Player : ${start.getPlayerOption} VS ${start.getBotOption} : NekoBot`
                 result.textContent = start.matchResult();
             }, 1500);
 

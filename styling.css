@@ -11,6 +11,10 @@ body,
 
 #app {
   height: 100vh;
+  background-image: url('/bg.jpg');
+  background-size: cover;
+  background-position: center ;
+  color:#fff;
 }
 
 .summary {
@@ -30,7 +34,9 @@ body,
   justify-content: center;
   align-items: center;
 }
-
+h3 {
+  margin-top: 1em;
+}
 .option {
   width: 30%;
   margin: 10px 15px;
